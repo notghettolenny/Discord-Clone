@@ -1,0 +1,25 @@
+{
+  "name": "discord",
+  "version": "1.0.0",
+  "description": "dddd",
+  "main": "index.js",
+  "scripts": {
+    "import": "postcss assets/styles/main.css --use postcss-import -o assets/css/main.import.css",
+    "prefix": "postcss assets/css/main.import.css --use autoprefixer -o assets/css/main.pre.css",
+    "minify": "postcss assets/css/main.pre.css --use cssnano -o assets/css/main.min.css"
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "discord clone"
+  },
+  "author": "Mfawa Ubangha",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2"
+  }
+}
